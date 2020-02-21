@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title> Ejercicio 3 - Funcion Cambio de colores</title>
+<script>
+//las funciones del ejercicio 2 se pueden unir en una sola
+function cambiarColor(nuevoColor){
+  document.bgColor = nuevoColor;
+}
+
+</script>
+
+</head>
+
+<body>
+
+<!--hacemos una llamada a la funcion cambiarColor.
+Los valores() pasan como argumento a (nuevo color)-->
+
+    <input type="button" value="Página Roja" onclick="cambiarColor('red');">
+    <input type="button" value="Página Verde" onclick="cambiarColor('green');">
+    <input type="button" value="Página Azul" onclick="cambiarColor('blue');">
+    <input type="button" value="Página Amarilla" onclick="cambiarColor('yelow');">
+    <input type="button" value="Página Negra" onclick="cambiarColor('black');">
+    <input type="button" value="Página Blanca" onclick="cambiarColor('white');">
+
+  </body>
+  </html>

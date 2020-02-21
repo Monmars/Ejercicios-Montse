@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title> Metodos y propiedades para los arrays </title>
+<script>
+
+   var amigos = ["Carlos", "Maria", "Alex"];
+   var amigos2 = ["Pepe",  "Marta", "Juan"];
+
+//La propiedad length nos dice la longitud de un array (nº elementos) 
+   //contar los elementos del array concatenando texto
+   document.write("Tienes "+ amigos.length + " amigos");
+
+   //Agregar un elemento mas al array
+   amigos[amigos.length] = "Marta";
+   //en este caso Marta pasará a ocupar la poscición nº3
+
+   //Para agregar mas de un elemento al final del array
+   amigos.push("Pepe", "Marta", "Juan")
+
+   //Eliminar elementos del array (por el final)
+   amigos.pop();
+
+// Unir o cancatenar arrays
+var amigos3 = amigos.concat(amigos2);
+
+//Para mostrar en pantalla la forma en que aparecen espaciados
+//los elementos.
+document.write(amigos.join("-"));
+
+//Mostrar en pantalla los elementos de forma ordenada
+var ordnados = amigos.sort();
+
+ 
+</script>
+   </body>
+   </html

@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title> Ejercicio 4 - Funcion Cambio de color fonfo y texto </title>
+<script>
+//las funciones pueden tener varios argumentos
+function cambiarColor(colorFondo, colorTexto){
+  document.bgColor = colorFondo;
+  document.fgColor = colorTexto;
+}
+document.write ("<h1>Texto para pruebas</h1>");
+
+</script>
+
+</head>
+
+<body>
+
+    <input type="button" value="Página Roja" onclick="cambiarColor('red', 'blue');">
+    <input type="button" value="Página Verde" onclick="cambiarColor('green', 'black');">
+    <input type="button" value="Página Azul" onclick="cambiarColor('blue', 'black');">
+    <input type="button" value="Página Amarilla" onclick="cambiarColor('yelow','blue');">
+    <input type="button" value="Página Negra" onclick="cambiarColor('black','white');">
+    <input type="button" value="Página Blanca" onclick="cambiarColor('hite','red');">
+
+  </body>
+  </html>
